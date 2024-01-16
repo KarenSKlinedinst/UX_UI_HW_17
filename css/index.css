@@ -1,0 +1,121 @@
+body {
+    padding: 40px;
+}
+section {
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.small {
+  width: 41px;  
+}
+p {
+    font-family: Montserrat, sans-serif;
+    font-weight: Normal;
+    color: black;
+    font-size: 20px;
+    line-height: 150%;    
+}
+h1 {
+    font-family: 'DM Serif Display', serif;
+font-size: 42px;
+}
+.red {
+    font-family: Montserrat, sans-serif;
+    font-weight: Normal;
+    color: #ed1c24;
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: white;
+    font-family: Montserrat, sans-serif;
+    color: black;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+li a:hover {
+    background-color: #ed1c24;
+    color: white;
+    border-radius: 10px;
+}
+.btn {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #ed1c24;
+    padding: 14px 28px;
+    font-family: Montserrat, sans-serif;
+    font-weight: Normal;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .btn:hover {background: #d81920;}
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .flex-container > div {
+    background-color: none;
+    width: auto;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+  }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    color: white; 
+    text-align: left;
+    padding: 20px;
+    font-family: Montserrat, sans-serif;
+    font-weight: Normal;
+    color: white;
+    font-size: 20px;
+}
+.fa {
+    padding: 8px;
+    font-size: 24px;
+    width: 24px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    background: #d81920;
+  }
+  
+  .fa-linkedin {
+    background: #ed1c24;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #ed1c24;
+    color: white;
+  }
